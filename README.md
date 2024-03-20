@@ -54,7 +54,8 @@ If you wish to adjust the auto restart and how it works refer to this github
 "https://github.com/GeheimagentNr1/AutoRestart/wiki/Simple-Instructions%3A-1.3-Setup-%28MC-1.16.5-or-older%2C-Windows%2C-Restart-Script%29"
 
 
-
+(Server is setup to warn you at multiple time intervals starting at 2h ("2h", "1h", "30m", "15m", "10m", "5m", "2m", "1m", "30s", "15s", "10s", "9s", "8s", "7s", "6s", "5s", "4s", "3s", "2s", "1s")
+it is setup to restart at these times ("00:00", "04:00", "8:00", "12:00", "16:00", "20:00") in the 24 hour format, as said before if you wish to adjust any of this please refer to the github above)
 
 
 
