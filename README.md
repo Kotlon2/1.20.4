@@ -1,8 +1,13 @@
 1.20.4 Server with autorestart
+
 **Must have java 17 installed to use**
+
 **Server with AutoRestart every 4hours**
+
 **To force a restart type "restart" into the command prompt**
+
 **To force stop the server use the commad "stop"**
+
 **The restart_start file is setup to run the server while its in the "C:" directory, please either put this into the main "C:" directory, or access the file "restart_start and change the location to where this server is**
 
 To use, make a ngrok account, and go through all that, provide your authtoken to the ngrok.exe, type "ngrok tcp 25565", after that it should say "Session Status online"
@@ -21,6 +26,7 @@ It may take a while to boot when you have a lot of mods so you may have to wait 
 At this point the server should be up and people should be able to join
 
 **Below will explain how to create a new world however since this server is setup with autorestart there are a couple things you must do before making a new world and after you make the new world**
+
 **First go to main folder and find the folder called "LSF"(If this is your first timing doing this, if not then itll be called whatever your world is called) enter that folder and then find another folder called
 "serverconfig" enter this folder and you will see a Toml file called "auto_restart-server" you must copy this file, it is already setup and if you accidently delete it then you will have to reset it up which we 
 will try to avoid doing, save this file somewhere that you can easily access, (The following is for after you make a new world) run the file called "restart_loop" like you normally would to start the server
